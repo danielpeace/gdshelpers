@@ -319,7 +319,7 @@ the class :func:`Text` from the package :func:`gdshelpers.parts.text`. The secon
 
 The first parameter `origin` denotes the position and the height of the text can be set by the second parameter `height`. The text itself can be
 given by the third parameter `text`. In addition, optional parameters as `alignment`, `angle` and `line_spacing` can be used the align, rotate the text
-and to vary the spacing between the lines.
+and to vary the spacing between the lines. Alignment options are given as ``-`` separated tuple, allowing for combinations of ``left``, ``center``, ``right`` with ``bottom``, ``center``, ``top``.
 
 Mach Zehnder Interferometers
 ============================
